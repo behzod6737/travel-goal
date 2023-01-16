@@ -1,0 +1,141 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#page-logo a {
+    padding: 10px;
+    font-family: "Oleo script", sans-serif;
+    color: rgb(245, 243, 160);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    gap: 10px;
+    padding-right: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: yellow;
+}
+
+/* main */
+
+#hero {
+    height: 800px;
+    background-image: url("../images/places/ocean.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.hero__content {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgba(51, 47, 47, .8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    width: 50%;
+    position: relative;
+    top: 200px;
+}
+
+.hero__content h1 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Railway", sans-serif;
+    margin: 0;
+}
+
+.hero__content p {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Railway", sans-serif;
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+.hero__content a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+
+}
+
+.hero__content a:hover {
+    background-color: rgb(255, 220, 0);
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.destination img {
+    height: 250px;
+    width: 100%;
+}
+
+.destinations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    list-style-type: none;
+    text-transform: capitalize;
+    
+
+
+}
+
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(59, 65, 64);
+    margin: 24px 0;
+
+}
+
+.img {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.paragraph {
+    text-align: left;
+}
+
+
