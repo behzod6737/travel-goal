@@ -115,13 +115,11 @@ h2 {
     gap: 80px;
     list-style-type: none;
     text-transform: capitalize;
-    
 
 
 }
 
-
-h2 {
+#h2 {
     font-size: 40px;
     text-transform: uppercase;
     color: rgb(59, 65, 64);
@@ -135,7 +133,24 @@ h2 {
 }
 
 .paragraph {
-    text-align: left;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+
+.destination .strong {
+    color: rgb(0, 160, 117);
+
+}
+
+#highlights {
+    background-color: rgb(227, 255, 253);
+    padding: 24px;
 }
 
 
+footer {
+    background:linear-gradient(90deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    
+}
