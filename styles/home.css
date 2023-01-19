@@ -29,9 +29,9 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: right;
-    gap: 10px;
+    gap: 3em;
     padding-right: 20px;
 
 }
@@ -39,6 +39,20 @@ header {
 nav a {
     text-decoration: none;
     color: yellow;
+    padding: .4em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav a:hover {
+    background-color: rgb(255, 220, 0);
+    color: black;
+    padding: .4em;
+    border-radius: .2em;
+    text-transform:uppercase;
+    text-shadow: 1px 1px 1px black;
+    transition: all 300ms ease-in-out;
+
 }
 
 /* main */
@@ -151,6 +165,26 @@ h2 {
 
 
 footer {
-    background:linear-gradient(90deg, rgb(24, 24, 24), rgb(25, 29, 29));
-    
+    background: linear-gradient(90deg, rgb(24, 24, 24), rgb(25, 29, 29));
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin: 0;
+    padding: 40px;
+    list-style: none;
+}
+
+footer li {
+    width: 80px;
+    height: 80px;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
 }
